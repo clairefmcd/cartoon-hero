@@ -3,6 +3,7 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 30px;
+	background-color: white;
 }
 
 header{
@@ -40,6 +41,7 @@ main{
 
 main img{
 	max-width: 100%;
+	max-height: 500px;
 }
 
 h2{
