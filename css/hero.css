@@ -1,6 +1,8 @@
 body{
 	margin: 0px;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header{
@@ -12,10 +14,16 @@ header{
 
 header h1{
 	color: orange;
+	font-size: 50px;
+}
+
+header h2{
+	color: #76D7C4;
+	font-size: 30px;
 }
 
 h1, h2{
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Rock Salt', cursive;
 }
 
 header img{
@@ -23,4 +31,46 @@ header img{
     width: 300px;
     border: 10px solid orange;
 }
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 30px;
+	color: teal;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: teal;
+}
+a:hover{
+	color: teal;
+	background-color: orange;
+}
+
+footer{
+	background-color: teal;
+	color: #76D7C4;
+	text-align: center;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0px;
+}
+
 
